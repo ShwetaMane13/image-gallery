@@ -1,0 +1,7 @@
+1. then-catch block needs to replaced by async/await as it provides a much cleaner way to write asynchronous functions thus improving readability.
+
+2. would rather process/log the data outside of the then block (mostly in a different function) by storing the output of the api call in some variable. again improving readablity and performance.
+
+3. would use a try-catch block with async await for better error handling. custom errors can be shown based on status codes to provide a detailed insight into the errors.
+
+4. arrow function syntax can be used to make the code even more readable.
